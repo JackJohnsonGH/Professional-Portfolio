@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #39a6b2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+/* HEADER STYLES START */
+header {
+    padding: 20px 35px;
+    background-color:#5b98e7;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-size: 36px;
+    color: #8914a7;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #8914a7;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+/* HEADER STYLES END */
+
+/* HERO STYLES START */
+.hero {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../Images/hero-purple.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* HERO STYLES END */
+
+
+
+/* FOOTER STYLES START  */
+footer {
+    background: #5b98e7;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: #8914a7;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #8914a7
+}
+
+section {
+    padding: 60px;
+}
