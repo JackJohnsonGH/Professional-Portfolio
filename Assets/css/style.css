@@ -14,10 +14,6 @@ body {
     margin-left: 25px;
 }
 
-.flex-center {
-    text-align: center;
-}
-
 /* HEADER STYLES START */
 header {
     padding: 20px 35px;
@@ -101,6 +97,17 @@ header nav ul li a {
     margin: 0 auto;
     border: 20px;
     text-align: center;
+}
+/* "ABOUT ME" STYLES END */
+
+/* "WORK" STYLES START */
+.run-buddy-hero {
+    text-align: center;
+}
+
+.run-buddy-hero > img {
+    width: 100%;
+    height: auto;
 }
 
 /* FOOTER STYLES START  */
