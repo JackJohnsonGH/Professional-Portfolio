@@ -75,7 +75,7 @@ header nav ul li a {
     padding-bottom: 20px;
 }  
 
-section > h2 {
+.title-left {
     display: flex;
     justify-content: left;
 }
