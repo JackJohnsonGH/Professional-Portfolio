@@ -109,26 +109,44 @@ header nav ul li a {
 }
 
 .run-buddy {
-    width: 130%;
+    width: 100%;
 }
 
 .flex-line-2 {
     display: flex;
     flex-flow: nowrap;
     justify-content: center;
-    justify-content: space-evenly;
 }
 
 .placeholder-1 {
     width: 550px;
     height: auto;
+    margin: 10px 10px 5px 10px;
 }
 
 .placeholder-2 {
     width: 550px;
     height: 288.94px;
+    margin: 10px 10px 5px 10px;
 }
 
+.flex-line-3 {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+
+.placeholder-3 {
+    width: 550px;
+    height: 288.94px;
+    margin: 5px 10px 10px 10px;
+}
+
+.placeholder-4 {
+    width: 550px;
+    height: 288.94px;
+    margin: 5px 10px 10px 10px;
+}
 /* FOOTER STYLES START  */
 footer {
     background: #5b98e7;
