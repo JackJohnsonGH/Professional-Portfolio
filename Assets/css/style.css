@@ -9,11 +9,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
 }
 
-.flex-left {
-    float: left;
-    margin-left: 25px;
-}
-
 /* HEADER STYLES START */
 header {
     padding: 20px 35px;
@@ -71,13 +66,19 @@ header nav ul li a {
 /* HERO STYLES END */
 
 /* SECTION TITLE STYLES START */
+
 .section-title {
     font-size: 48px;
     color: #8914a7;
     margin-bottom: 35px;
     border-color: #8914a7;
     padding-bottom: 20px;
-}    
+}  
+
+section > h2 {
+    display: flex;
+    justify-content: left;
+}
 
 .primary-border {
     border-color: #8914a7;
@@ -101,13 +102,31 @@ header nav ul li a {
 /* "ABOUT ME" STYLES END */
 
 /* "WORK" STYLES START */
-.run-buddy-hero {
-    text-align: center;
+.flex-line-1 {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
 }
 
-.run-buddy-hero > img {
-    width: 100%;
+.run-buddy {
+    width: 130%;
+}
+
+.flex-line-2 {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.placeholder-1 {
+    width: 550px;
     height: auto;
+}
+
+.placeholder-2 {
+    width: 550px;
+    height: 288.94px;
 }
 
 /* FOOTER STYLES START  */
