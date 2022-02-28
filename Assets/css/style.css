@@ -165,7 +165,7 @@ img:hover {
 
 /* "CONTACT ME" STYLES START */
 div nav {
-    margin: 7px 300px;
+    margin: 7px auto;
 }
 
 div nav ul {
@@ -254,7 +254,7 @@ footer h2, footer div {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    font-size: 1.55vw;
+    font-size: 1.7vw;
     text-align: center;
 }
 }
@@ -270,7 +270,7 @@ footer h2, footer div {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    font-size: 1.55vw;
+    font-size: 1.9vw;
     text-align: center;
 }
 }
@@ -285,7 +285,7 @@ footer h2, footer div {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    font-size: 1.55vw;
+    font-size: 2vw;
     text-align: center;
 }
 }
